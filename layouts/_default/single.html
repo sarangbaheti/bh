@@ -13,6 +13,8 @@
         {{ partial "post.html" . }}
       {{ else if eq .Type "page" }}
         {{ partial "page.html" . }}
+      {{ else if eq .Type "archive" }}
+        {{ partial "archive.html" . }}
       {{ else }}
         NO MATCHING PARTIAL
       {{ end }}
