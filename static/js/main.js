@@ -37,6 +37,22 @@ var main = {
     
     // show the big header image  
     main.initImgs();
+    
+    hljs.initHighlightingOnLoad();
+
+  function highlight() {
+      $('pre code').each(function(i, e) {
+        hljs.highlightBlock(e);
+        var code = $(this);
+        var lines = code.html().split(/\n/).length;
+        var numbers = [];
+        for (i = 1; i < lines; i++) {
+          numbers += '<span class="line">' + i + '</span>';
+        }
+        code.parent().addClass('codeblock').append('<div class="lines">' + numbers + '</div>');
+      });
+    }
+    highlight();
   },
   
   initImgs : function() {
