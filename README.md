@@ -3,10 +3,10 @@
 [tweaked theme](https://github.com/halogenica/Hugo-BeautifulHugo)
 
 
-![Beautiful Hugo Theme Screenshot 1](https://github.com/saraagbaheti/bh/blob/master/images/site1.png)
+![Beautiful Hugo Theme Screenshot 1](https://github.com/sarangbaheti/bh/blob/master/images/site1.png)
 
 
-![Beautiful Hugo Theme Screenshot 2](https://github.com/saraagbaheti/bh/blob/master/images/site2.png)
+![Beautiful Hugo Theme Screenshot 2](https://github.com/sarangbaheti/bh/blob/master/images/site2.png)
 
 ## Installation
 
