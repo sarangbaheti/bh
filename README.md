@@ -1,6 +1,6 @@
 # Beautiful Hugo - A port of Beautiful Jekyll Theme
 
-[tweaked theme](https://github.com/halogenica/Hugo-BeautifulHugo)
+[tweaked Hugo-BeautifulHugo theme by halogenica](https://github.com/halogenica/Hugo-BeautifulHugo)
 
 
 ![Beautiful Hugo Theme Screenshot 1](https://github.com/sarangbaheti/bh/blob/master/images/site1.png)
