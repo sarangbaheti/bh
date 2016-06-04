@@ -18,10 +18,10 @@ This theme is designed to look great on both large-screen and small-screen (mobi
 
 ### Syntax highlighting
 
-This theme has support for `highlight` shortcode (with Pygments),
+This theme has support for `highlight` shortcode by highlight.js,
 see [the Hugo documentation](http://gohugo.io/extras/highlighting/) for more information.
 
-To use this feature install Pygments (`pip install Pygments`) and add `pygmentsuseclasses = true` to your `config.toml`.
+You don't have to install anything special for highlighting, it is all client side with line numbers
 
 ### Disqus support
 
