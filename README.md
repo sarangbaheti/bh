@@ -1,16 +1,24 @@
 # Beautiful Hugo - A port of Beautiful Jekyll Theme
 
-![Beautiful Hugo Theme Screenshot](https://github.com/halogenica/Hugo-BeautifulHugo/blob/master/images/screenshot.png)
+[tweaked theme](https://github.com/halogenica/Hugo-BeautifulHugo)
+
+
+![Beautiful Hugo Theme Screenshot 1](https://github.com/saraagbaheti/bh/blob/master/images/site1.png)
+
+
+![Beautiful Hugo Theme Screenshot 2](https://github.com/saraagbaheti/bh/blob/master/images/site2.png)
 
 ## Installation
 
     $ mkdir themes
     $ cd themes
-    $ git clone https://github.com/halogenica/Hugo-BeautifulHugo.git beautifulhugo
+    $ git clone https://github.com/sarangbaheti/bh.git bh
 
 See [the Hugo documentation](http://gohugo.io/themes/installing/) for more information.
 
 ## Extra Features
+- Supports Archive Page
+- code highlighting is on client side [highlight.js](https://highlightjs.org/)
 
 ### Responsive
 
@@ -37,4 +45,4 @@ This is a port of the Jekyll theme [Beautiful Jekyll](http://deanattali.com/beau
 
 ## License
 
-MIT Licensed, see [LICENSE](https://github.com/halogenica/Hugo-BeautifulHugo/blob/master/LICENSE).
+MIT Licensed
