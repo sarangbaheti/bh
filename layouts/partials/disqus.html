@@ -1,3 +1,6 @@
 {{ if .Site.DisqusShortname }}
-        {{ template "_internal/disqus.html" . }}
-{{ end }}
+    <div class="comments">
+         {{ template "_internal/disqus.html" . }} 
+    </div>
+ {{ end }}
+ 
