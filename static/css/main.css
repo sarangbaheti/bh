@@ -555,6 +555,7 @@ table tr td :last-child {
 pre.codeblock {
   position: relative;
   padding: 1em;
+  line-height: 1.5em;
   overflow: hidden;
 }
 
@@ -570,12 +571,10 @@ pre.codeblock code {
 pre.codeblock .lines {
   position: absolute;
   width: 3em;
-  height: 100%;
   left: 0;
   top: 0;
   border-right: 1px solid #D4D5D9;
   font-size: 1em;
-  line-height: 1.5em;
   text-align: right;
   box-sizing: border-box;
   user-select: none;
