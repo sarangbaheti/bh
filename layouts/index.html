@@ -40,8 +40,15 @@
               </p>
             
               <div class="post-entry">
-                {{ .Summary }}
-          	  <a href="{{ .Permalink }}" class="post-read-more">[Read&nbsp;More]</a>
+                {{ if .Description }}
+                    {{ .Description }}
+                {{ else }}
+                    {{ .Summary }}
+                {{ end }}
+
+                <br/>
+                <br/>
+                <a href="{{ .Permalink }}" class="post-read-more">[Read&nbsp;More]</a>
               </div>
             
              </article>
