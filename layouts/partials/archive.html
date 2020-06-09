@@ -5,18 +5,18 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <div id="blog-archives" class="category">
         {{ range (where .Site.Pages "Type" "post") }}
-              <h2 class="year-format">
-                {{ .Date | dateFormat "2006"}}
-              </h2>
+              <h3 class="year-format">
+                {{ .Date | dateFormat "2" }}   <!-- print publish day -->
+                {{ .Date | dateFormat "Jan" }} <!-- print publish month -->
+                {{ .Date | dateFormat "2006"}}                
+              </h3>
               <article>
-                <h2>
+                <h3>
                   <a href="{{ .Permalink }}" title="{{ .Title }}"> {{ .Title }}</a>
-                </h2>
-              <time>
-                <span class="month">{{ .Date | dateFormat "Jan" }}</span> <!-- print publish month -->
-                <span class="day">{{ .Date | dateFormat "2" }}</span> <!-- print publish day -->
-              </time>
-            </article>
+                </h3>
+              </article>
+                
+            
         {{ end }}
         </div>
     </div>
