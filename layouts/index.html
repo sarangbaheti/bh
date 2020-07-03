@@ -22,7 +22,7 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           <div class="posts-list">
-            {{ $pag := .Paginate (where .Data.Pages "Type" "post") 5}}
+            {{ $pag := .Paginate (where .Data.Pages "Type" "post") .Site.Params.numPostsPerPage}}
             {{ range $pag.Pages }}
             <article class="post-preview">
               <a href="{{ .Permalink }}">
